@@ -8,6 +8,9 @@ html {
 
 }
 
+body{
+    background-color: hsl(216, 11%, 36%); ;
+}
 
 
 .navl {
@@ -1384,4 +1387,38 @@ h5 {
     display: none;
 }
 
+@media only screen and (min-width: 1245px)
+{
+    
+.background{
+    width: 100%;
+    overflow: hidden;
+}
 
+.box{
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.herop{
+    width: 100%;
+}
+
+.navbar{
+    width: 78.5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+}
+
+@media only screen and (min-width:1350px)
+{
+    .navbar{
+        gap: 8.5vw;
+    }
+}
